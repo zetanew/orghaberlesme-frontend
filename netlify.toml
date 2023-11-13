@@ -3,6 +3,12 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/user/*"
+  to = "http://16.16.209.196/user/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/old-path"
   to = "/new-path"
   status = 301
